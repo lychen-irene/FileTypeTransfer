@@ -1,11 +1,3 @@
-# > powershell -ExecutionPolicy Bypass  C:\Users\irene_chen\Documents\IreneChen\csv2xlsx.ps1
-# Convert and delete original CSV files
-# > .\csv2xlsx.ps1 -DeleteOriginal
-
-# CSV to XLSX Converter Script
-# This script converts all CSV files in a specified directory to XLSX format
-
-
 param(
     [Parameter(Mandatory=$false)]
     [switch]$DeleteOriginal

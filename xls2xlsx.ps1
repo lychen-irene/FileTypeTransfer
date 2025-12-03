@@ -1,8 +1,3 @@
-# > powershell -ExecutionPolicy Bypass xls2xlsx.ps1
-# > powershell -ExecutionPolicy Bypass xls2xlsx.ps1 -DeleteOriginal 
-# XLS to XLSX Converter Script
-# This script converts all XLS files in a specified directory to XLSX format
-
 param(
     [switch]$DeleteOriginal = $false
 )

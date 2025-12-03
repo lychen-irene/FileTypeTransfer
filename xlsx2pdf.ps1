@@ -1,5 +1,3 @@
-# >powershell -ExecutionPolicy Bypass xlsx2pdf.ps1 -InputPath "YourSourcePath" -Batch
-
 param(
     [Parameter(Mandatory=$true, HelpMessage="Path to the XLSX file or directory containing XLSX files")]
     [string]$InputPath,
